@@ -1,0 +1,61 @@
+
+.item
+{
+	position: relative;
+	cursor: pointer;
+	margin-bottom: 10px;
+}
+.item-caption
+{
+	position: absolute;
+	background-color:#fff;
+	bottom:30px;
+	left:10%;
+	width: 80%;
+	padding: 10px;
+}
+.lightbox-contaniner
+{
+	background-color:rgba(0,0,0,.6);
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	display: none;
+}
+.light-img
+{
+	height: 550px;
+	background-image: url(../images/portfolio-3.jpg);
+	background-size: 100% 100%;
+	margin-top: 40px;
+}
+.light-boxinner
+{
+	position: relative;
+}
+#close
+{
+	position: absolute;
+	top:20px;
+	right:20;
+	font-size: 30px;
+	cursor: pointer;
+}
+#next
+{
+	position: absolute;
+	top:50%;
+	right:20;
+	font-size: 30px;
+	cursor: pointer;
+}
+#left
+{
+	position: absolute;
+	top:50%;
+	left:20;
+	font-size: 30px;
+	cursor: pointer;
+}
